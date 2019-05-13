@@ -1,6 +1,9 @@
+const root = "/playfair-testcase";
+
 const templateData =
 {
   site: {
+    root,
     title: "CMintS Starter", // See "layouts/_head.ejs"
     navigation: [
       {
@@ -19,4 +22,4 @@ const templateData =
   }
 };
 
-module.exports = {templateData};
+module.exports = {templateData, root};
